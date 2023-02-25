@@ -1,15 +1,13 @@
-
-<style>
 :root {
   --main-white: #f0f0f0;
   --main-red: #be3144;
-  --main-blue: #45567d;
+  --main-green: #DAF7A6;
   --main-gray: #303841;
 }
 
 * {
-  margin: auto;
-  padding: 30;
+  margin: 0;
+  padding: 0;
 }
 
 *,
@@ -43,7 +41,7 @@ html {
 }
 /*base coat*/
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Helvatica', sans-serif;
   font-size: 1.8rem; /* 18px */
   font-weight: 400;
   line-height: 1.4;
@@ -52,7 +50,7 @@ body {
 
 h1,
 h2 {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   text-align: center;
 }
@@ -87,7 +85,7 @@ img {
   left: 0;
   width: 100%;
   background: var(--main-red);
-  box-shadow: 0 3px 0 rgba(0, 0.4, 0, 0.4);
+  box-shadow: 0 1px 0 rgba(0, 0.5, 0, 0.5);
   z-index: 10;
 }
 
@@ -125,7 +123,7 @@ img {
   width: 100%;
   height: 100vh;
   background-color: #000;
-  background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+  background-image: linear-gradient(62deg, #581845, 25%, #FF5733, 250%, #FF9333, 25%, #900C3F, 25%);
 }
 
 .welcome-section > p {
@@ -227,5 +225,28 @@ img {
   transform: translateX(0);
   transition: transform 0.3s ease-out;
 }
+/*footer */
+footer {
+  font-weight: 300;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2rem;
+  background: var(--main-gray);
+  border-top: 4px solid var(--main-red);
+}
 
-</style>
+footer > p {
+  margin: 2rem;
+}
+
+footer i {
+  vertical-align: middle;
+}
+
+@media (max-width: 28.75em) {
+  footer {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
