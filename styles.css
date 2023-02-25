@@ -1,3 +1,5 @@
+
+<style>
 :root {
   --main-white: #f0f0f0;
   --main-red: #be3144;
@@ -20,6 +22,24 @@ html {
   box-sizing: border-box;
   font-size: 62.5%;
   scroll-behavior: smooth;
+}
+
+@media (max-width: 75em) {
+  html {
+    font-size: 60%;
+  }
+}
+
+@media (max-width: 61.25em) {
+  html {
+    font-size: 58%;
+  }
+}
+
+@media (max-width: 28.75em) {
+  html {
+    font-size: 55%;
+  }
 }
 /*base coat*/
 body {
@@ -67,7 +87,7 @@ img {
   left: 0;
   width: 100%;
   background: var(--main-red);
-  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+  box-shadow: 0 3px 0 rgba(0, 0.4, 0, 0.4);
   z-index: 10;
 }
 
@@ -208,3 +228,4 @@ img {
   transition: transform 0.3s ease-out;
 }
 
+</style>
