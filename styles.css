@@ -6,8 +6,8 @@
 }
 
 * {
-  margin: 0;
-  padding: 0;
+  margin: auto;
+  padding: auto;
 }
 
 *,
@@ -42,7 +42,7 @@ html {
 /*base coat*/
 body {
   font-family: 'Helvatica', sans-serif;
-  font-size: 1.8rem; /* 18px */
+  font-size: 1.8rem; 
   font-weight: 400;
   line-height: 1.4;
   color: var(--main-white);
@@ -85,7 +85,7 @@ img {
   left: 0;
   width: 100%;
   background: var(--main-red);
-  box-shadow: 0 2px 0 rgba(0, 0.5, 0, 0.5);
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.5);
   z-index: 10;
 }
 
@@ -115,7 +115,7 @@ img {
   background: var(--main-blue);
 }
 /* dashboard */
- .welcome-section {
+ .main-section {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -126,7 +126,7 @@ img {
   background-image: linear-gradient(62deg, #581845, 25%, #ff5733, 250%, #ff9333, 25%, #900c3f, 25%);
 }
 
-.welcome-section > p {
+.main-section > p {
   font-size: 3rem;
   font-weight: 200;
   font-style: italic;
