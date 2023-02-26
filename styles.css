@@ -114,6 +114,7 @@ img {
 .nav-list a:hover {
   background: var(--main-green);
 }
+
 /* dashboard */
  .main-section {
   display: flex;
@@ -123,7 +124,8 @@ img {
   width: 100%;
   height: 100vh;
   background-color: #000;
-  background-image: linear-gradient(62deg, #581845, #ff5733, #ff9333, #900c3f);
+  background-image: url('assets/eb6e93dc338288b7d54d218a3c3b9e04.gif');
+    background-size: cover;
 }
 
 .main-section > p {
