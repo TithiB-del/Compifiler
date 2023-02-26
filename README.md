@@ -7,3 +7,4 @@ Most of the time, when people tend to showcase their achievements, they tend to 
 - The user can choose the number of profiles they want to display in their dashboard <br>
 - Privacy is maintained as no sensitive information is leaked, just the competitive programming profile username is shown along with the statistics.
 
+<a href="https://youtu.be/0cQPjWyWK1o">Youtube demo video link-watch with subtitles!</a>
